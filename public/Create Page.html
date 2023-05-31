@@ -39,15 +39,45 @@
                         <input type="checkbox" name="dropdown group" value="Keto"/>Keto</label>
                 </div>
 
-                <div class="serving size">Serving Size:
-                    <input type="number" id="serving number" placeholder="0"> servings
+                <div class="serving">Serving Size:
+                    <input type="number" id="serving size" placeholder="0"> servings
                 </div>
 
-                
+                <div class="prep">Prep Time:
+                    <input type="number" id="hour" placeholder="0"> hr 
+                    <input type="number" id="minute" placeholder="0" min="1" max="59"> min 
+                </div>
+
+                <div class="cooking">Cooking Time:
+                    <input type="number" id="hour" placeholder="0"> hr 
+                    <input type="number" id="minute" placeholder="0" min="1" max="59"> min 
+                </div>
+
+                <div class="add image">
+                    <input type="file" id="user file">
+                </div>
+
+                <br> 
+
             </section>
         
             <section class="recipe text">
-            
+                <div class="recipe text header">Nutritional Values
+                    <input type="text" id="nutritional value" placeholder="Enter Nutrional Value (optional)...">
+                </div>
+
+                <div class="recipe text header">Ingredients
+                    <input type="text" id="ingredients" placeholder="Enter Ingredient List...">
+                </div>
+                
+                <div class="recipe text header">Notes
+                    <input type="text" id="notes" placeholder="Any Notes for the recipe?...">
+                </div>
+
+                <div class="recipe text header">Instructions
+                    <input type="text" id="instructions" placeholder="Enter Instructions...">
+                </div>
+
                 <input type="submit" value="Submit">
             </section>
         </form>
