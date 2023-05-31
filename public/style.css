@@ -82,3 +82,25 @@
     display: inline;
     padding-right: 20px;
 }
+
+/*This is the CSS for the create page*/
+
+.recipe-page {
+    background-color: #DAE2B6;
+}
+
+.recipe-text {
+    background-color: #FAEDCD;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.recipe-text-header {
+    font-family: Century Gothic;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#textbox {
+    font-size: 15px;
+}
