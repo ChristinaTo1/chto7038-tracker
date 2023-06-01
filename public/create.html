@@ -7,15 +7,25 @@
     </head>
 
     <body>
+        <div class="container1">
         <div class="header">
             <h1>Your<br>Recipe Book</h1>
+            <button type="button" class="back-button" onclick="window.location.href = 'index.html';">
+                <span class="top">Back</span>
+            </button>
         </div>
     
     <form action="">
-        <section class="recipe-page">
-            <section class="recipe overview">
-                <input type="text" id="RN textbox" placeholder="Insert Recipe Name">
-                <input type="text" id="RD textbook" placeholder="Insert Recipe Description">
+        <div class="recipe-page">
+            <div class="recipe-overview">
+                <div class="recipe-name-textbox">
+                    <textarea type="text" id="RN-textbox" rows="2" cols="45" placeholder="Insert Recipe Name"></textarea>
+                </div>
+
+                <div class="recipe-description-textbox">
+                    <textarea type="text" id="RD-textbox" rows="5" cols="53" placeholder="Insert Recipe Description"></textarea>
+                </div>
+
                 <div class="course category">Select Coure Category
                     <label for="course names">Course Category:</label>
                         <select name="course category" id="course names">
@@ -59,9 +69,9 @@
 
                 <br> 
 
-            </section>
+            </div>
         
-            <section class="recipe-text">
+            <div class="recipe-text">
                 <div class="recipe-text-header">Nutritional Values<br><br>
                     <input type="text" id="textbox" placeholder="Enter Nutrional Value (optional)...">
                 </div>
@@ -74,12 +84,12 @@
                     <input type="text" id="textbox" placeholder="Any Notes for the recipe?...">
                 </div>
 
-                <div class="recipe-text-header">Instructions<br><br>
+                <div class="recipe-text-header1">Instructions<br><br>
                     <input type="text" id="textbox" placeholder="Enter Instructions...">
                 </div>
 
                 <input type="submit" value="Submit">
-            </section>
+            </div>
         </form>
         </section>
 

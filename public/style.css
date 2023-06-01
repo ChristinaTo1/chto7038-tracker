@@ -57,9 +57,9 @@
     transform: translateY(-6px);
   }
 
-  .create-button:active .top {
+.create-button:active .top {
     transform: translateY(-2px);
-  }
+}
 
 .recipe-container {
     background-color: #DAE2B6;
@@ -85,6 +85,19 @@
 
 /*This is the CSS for the create page*/
 
+.back-button {
+    background: #E3D5B0;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+
+.back-button:active .top {
+    transform: translateY(-2px);
+}
+  
 .recipe-page {
     background-color: #DAE2B6;
 }
@@ -101,6 +114,35 @@
     padding-top: 10px;
 }
 
+.recipe-text-header1 {
+    font-family: Century Gothic;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.recipe-name-textbox {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.recipe-description-textbox {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#RN-textbox {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+} 
+
+#RD-textbox {
+    font-size: 17px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
 #textbox {
     font-size: 15px;
 }
+
