@@ -9,9 +9,9 @@
     <body>
         <div class="container1">
         <div class="header">
-            <h1>Your<br>Recipe Book</h1>
+            <h1>Your<br>Recipe Book</h1> <br>
             <button type="button" class="back-button" onclick="window.location.href = 'index.html';">
-                <span class="top">Back</span>
+                <span class="top1">Back</span>
             </button>
         </div>
     
@@ -26,9 +26,9 @@
                     <textarea type="text" id="RD-textbox" rows="5" cols="53" placeholder="Insert Recipe Description"></textarea>
                 </div>
 
-                <div class="course category">Select Coure Category
-                    <label for="course names">Course Category:</label>
-                        <select name="course category" id="course names">
+                <div class="course-category">Select Course Category:   
+                    <label for="course-selection"></label>
+                        <select name="course-dropdown" id="course-names">
                             <option value="Appetizer">Appetizer</option>
                             <option value="Main">Main</option>
                             <option value="Dessert">Dessert</option>
@@ -37,8 +37,9 @@
                             <option value="Beverage">Beverage</option>
                         </select>
                 </div>
-                <div class="recipe tag" data-control="checkbox-dropdown">
-                    <label class="dropdown label">Add Recipe Tag</label>
+
+                <div class="recipe-tag" data-control="checkbox-dropdown">
+                    <label class="dropdown label">Add Recipe Tag: </label>
                     <label class="dropdown option">
                         <input type="checkbox" name="dropdown group" value="Vegetarian"/>Vegetarian</label>
                         <input type="checkbox" name="dropdown group" value="Vegan"/>Vegan</label>
@@ -50,22 +51,27 @@
                 </div>
 
                 <div class="serving">Serving Size:
-                    <input type="number" id="serving size" placeholder="0"> servings
+                    <input type="number" id="serving-size-input" placeholder="-"> servings
                 </div>
 
-                <div class="prep">Prep Time:
-                    <input type="number" id="hour" placeholder="0"> hr 
-                    <input type="number" id="minute" placeholder="0" min="1" max="59"> min 
+                <div class="prep-time">Prep Time:
+                    <input type="number" id="prep-time-input" placeholder="-" min="0" max="59"> hr 
+                    <input type="number" id="prep-time-input" placeholder="-" min="1" max="59"> min 
                 </div>
 
-                <div class="cooking">Cooking Time:
-                    <input type="number" id="hour" placeholder="0"> hr 
-                    <input type="number" id="minute" placeholder="0" min="1" max="59"> min 
+                <div class="cooking-time">Cooking Time:
+                    <input type="number" id="cooking-time-input" placeholder="-" min="0" max="59"> hr 
+                    <input type="number" id="cooking-time-input" placeholder="-" min="1" max="59"> min 
                 </div>
 
-                <div class="add image">
-                    <input type="file" id="user file">
+                <br>
+
+                <div class="square">
+                    <div class="add-image"> Add Image
+                        <input type="file" id="user-file">
+                    </div>
                 </div>
+                    
 
                 <br> 
 

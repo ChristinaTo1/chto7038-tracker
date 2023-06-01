@@ -83,7 +83,7 @@
     padding-right: 20px;
 }
 
-/*This is the CSS for the create page*/
+/*This is the CSS for create.html*/
 
 .back-button {
     background: #E3D5B0;
@@ -94,12 +94,109 @@
     outline-offset: 4px;
 }
 
-.back-button:active .top {
+.top1 {
+    text-align: left;
+    height: 40px;
+    width: 120px;
+    display: block;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-family: Century Gothic;
+    font-weight: 500;
+    background: #FAEDCD;
+    color: black;
+    transform: translateY(-6px);
+}
+
+.back-button:active .top1 {
     transform: translateY(-2px);
 }
   
 .recipe-page {
     background-color: #DAE2B6;
+}
+
+.course-category {
+    padding-top: 20px;
+    padding-left: 30px;
+    font-family: Century Gothic;
+}
+
+#course-names {
+    width: 323px;
+    font-family: Century Gothic;
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+    left: 10px;
+}
+
+.recipe-tag {
+    padding-top: 20px;
+    padding-left: 30px;
+    font-family: Century Gothic;
+}
+
+.serving {
+    padding-top: 20px;
+    padding-left: 30px;
+    font-family: Century Gothic;
+}
+
+#serving-size-input {
+    width: 70px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Century Gothic;
+}
+
+.prep-time {
+    padding-top: 20px;
+    padding-left: 30px;
+    font-family: Century Gothic;
+}
+
+#prep-time-input {
+    width: 70px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Century Gothic;
+}
+
+.cooking-time {
+    padding-top: 20px;
+    padding-left: 30px;
+    font-family: Century Gothic;
+}
+
+#cooking-time-input {
+    width: 70px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Century Gothic;
+}
+
+.square {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 30px;
+    background-color: white;
+}
+
+.add-image {
+    position: relative;
+    top: 100px;
+    left: 20px;
+    font-family: Century Gothic;
+}
+
+#user-file {
+    text-align: center;
+    font-size: 15px;
+    font-family: Century Gothic;
 }
 
 .recipe-text {
@@ -127,7 +224,7 @@
 
 .recipe-description-textbox {
     padding-left: 30px;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 #RN-textbox {
@@ -145,4 +242,3 @@
 #textbox {
     font-size: 15px;
 }
-
