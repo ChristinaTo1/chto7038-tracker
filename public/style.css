@@ -85,6 +85,29 @@
 
 /*This is the CSS for create.html*/
 
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.recipe-overview {
+    background-color: #C6CEA5;
+    padding-bottom: 30px;
+}
+
+.recipe-body {
+    background-color: #FAEDCD;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 .back-button {
     background: #E3D5B0;
     border-radius: 12px;
@@ -118,6 +141,52 @@
     background-color: #DAE2B6;
 }
 
+.recipe-text {
+    background-color: #FAEDCD;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.recipe-text1 {
+    padding-left: 30px;
+}
+
+.recipe-text-header {
+    font-family: Century Gothic;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.recipe-text-header1 {
+    font-family: Century Gothic;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.recipe-name-textbox {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.recipe-description-textbox {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+#RN-textbox {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: Century Gothic;
+} 
+
+#RD-textbox {
+    font-size: 17px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: Century Gothic;
+}
+
 .course-category {
     padding-top: 20px;
     padding-left: 30px;
@@ -125,7 +194,7 @@
 }
 
 #course-names {
-    width: 323px;
+    width: 275px;
     font-family: Century Gothic;
     font-size: 15px;
     padding: 10px;
@@ -137,6 +206,15 @@
     padding-top: 20px;
     padding-left: 30px;
     font-family: Century Gothic;
+}
+
+#tag-names {
+    width: 275px;
+    font-family: Century Gothic;
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+    left: 10px;
 }
 
 .serving {
@@ -178,19 +256,30 @@
     font-family: Century Gothic;
 }
 
+.image-section {
+    padding-top: 30px;
+}
+
 .square {
-    height: 300px;
-    width: 300px;
+    text-align: center;
+    height: 519px;
+    width: 500px;
     position: relative;
     left: 30px;
     background-color: white;
+    display: inline-block;
 }
 
 .add-image {
     position: relative;
-    top: 100px;
-    left: 20px;
+    top: 230px;
+    text-align: center;
     font-family: Century Gothic;
+}
+
+#user-file {
+    position: relative;
+    left: 50px;
 }
 
 #user-file {
@@ -199,46 +288,52 @@
     font-family: Century Gothic;
 }
 
-.recipe-text {
-    background-color: #FAEDCD;
-    padding-top: 10px;
-    padding-left: 30px;
-}
-
-.recipe-text-header {
-    font-family: Century Gothic;
-    font-size: 20px;
-    padding-top: 10px;
-}
-
-.recipe-text-header1 {
-    font-family: Century Gothic;
-    font-size: 20px;
-    padding-top: 10px;
-}
-
-.recipe-name-textbox {
-    padding-left: 30px;
-    padding-top: 30px;
-}
-
-.recipe-description-textbox {
-    padding-left: 30px;
-    padding-top: 20px;
-}
-
-#RN-textbox {
-    font-size: 20px;
-    padding-top: 10px;
-    padding-left: 10px;
-} 
-
-#RD-textbox {
+#textbox {
     font-size: 17px;
     padding-top: 10px;
     padding-left: 10px;
+    font-family: Century Gothic;
 }
 
-#textbox {
-    font-size: 15px;
+#instruction-textbox {
+    font-size: 17px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: Century Gothic;
+    height: 490px;
 }
+
+.save-button {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.save-recipe-button {
+    background: #C6CEA5;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+
+.top2 {
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    display: block;
+    padding-top: 15px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-family: Century Gothic;
+    font-weight: 500;
+    background: #DAE2B6;
+    color: black;
+    transform: translateY(-6px);
+}
+
+.save-recipe-button:active .top2 {
+    transform: translateY(-2px);
+}
+
