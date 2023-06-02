@@ -37,5 +37,3 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
 //I wanted to do this by retrieving the JS object by creating a variable in the index.html://
 //var recipe = JSON.parse(localStorage.getItem('UserReciptList'))//
-
-//

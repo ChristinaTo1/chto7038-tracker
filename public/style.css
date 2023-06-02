@@ -31,6 +31,8 @@
     padding-top: 50px;
 }
 
+/*Create Recipe button*/
+
 .create-button {
     background: #E3D5B0;
     border-radius: 12px;
@@ -167,7 +169,7 @@
     padding-top: 20px;
 }
 
-/*This is the Recipe title textbox*/
+/*Recipe title textbox*/
 #RN-textbox {
     font-size: 20px;
     padding-top: 10px;
@@ -182,6 +184,8 @@
     padding-left: 10px;
     font-family: Century Gothic;
 }
+
+/*Course category*/
 
 .course-category {
     padding-top: 20px;
@@ -198,6 +202,8 @@
     left: 10px;
 }
 
+/*Recipe Tag*/
+
 .recipe-tag {
     padding-top: 20px;
     padding-left: 30px;
@@ -213,6 +219,8 @@
     left: 10px;
 }
 
+/*Serving size section*/
+
 .serving {
     padding-top: 20px;
     padding-left: 30px;
@@ -225,6 +233,8 @@
     font-size: 15px;
     font-family: Century Gothic;
 }
+
+/*Prep time section*/
 
 .prep-time {
     padding-top: 20px;
@@ -239,6 +249,8 @@
     font-family: Century Gothic;
 }
 
+/*Cooking time section*/
+
 .cooking-time {
     padding-top: 20px;
     padding-left: 30px;
@@ -251,6 +263,8 @@
     font-size: 15px;
     font-family: Century Gothic;
 }
+
+/*Add Image section*/
 
 .image-section {
     padding-top: 30px;
@@ -284,12 +298,16 @@
     font-family: Century Gothic;
 }
 
+/*Nutritional Value section*/
+
 #nutrition-textbox {
     font-size: 17px;
     padding-top: 10px;
     padding-left: 10px;
     font-family: Century Gothic;
 }
+
+/*Ingredient section*/
 
 #ingredient-textbox{
     font-size: 17px;
@@ -298,12 +316,16 @@
     font-family: Century Gothic;
 }
 
+/*Notes section*/
+
 #note-textbox {
     font-size: 17px;
     padding-top: 10px;
     padding-left: 10px;
     font-family: Century Gothic;
 }
+
+/*Instruction section*/
 
 #instruction-textbox {
     font-size: 17px;
@@ -312,6 +334,8 @@
     font-family: Century Gothic;
     height: 490px;
 }
+
+/*Submit button for the form*/
 
 .save-button {
     padding-top: 30px;
