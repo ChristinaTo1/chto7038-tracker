@@ -13,13 +13,14 @@
                 <span class="top1">Back</span>
             </button>
         </div>
-    
-    <form action="">
+
+<!--This is the form that I wanted users to complete to record their recipe-->
+    <form id="recipe-creation-form">
         <div class="row">
             <div class="column">
             <div class="recipe-overview">
                 <div class="recipe-name-textbox">
-                    <textarea type="text" id="RN-textbox" rows="2" cols="45" placeholder="Insert Recipe Name"></textarea>
+                    <textarea type="text" id="RN-textbox" rows="2" cols="45" placeholder="Insert Recipe Name" required></textarea>
                 </div>
 
                 <div class="recipe-description-textbox">
@@ -28,7 +29,8 @@
 
                 <div class="course-category">Select Course Category:   
                     <label for="course-selection"></label>
-                        <select name="course-dropdown" id="course-names">
+                        <select name="course-dropdown" id="course-name">
+                            <option value="" disabled selected hidden>Select Course</option>
                             <option value="Appetizer">Appetizer</option>
                             <option value="Main">Main</option>
                             <option value="Dessert">Dessert</option>
@@ -40,7 +42,8 @@
 
                 <div class="recipe-tag" data-control="checkbox-dropdown">
                     <label class="recipe-tag-label">Add Recipe Tag: </label>
-                        <select name="tag-dropdown" id="tag-names">
+                        <select name="tag-dropdown" id="tag-name">
+                            <option value="" disbaled selected hidden>Select Tag</option>
                             <option type="checkbox" value="Vegetarian">Vegetarian</option>
                             <option type="checkbox" value="Vegan">Vegan</option>
                             <option type="checkbox" value="Pescetarian">Pescetarian</option>
@@ -68,26 +71,28 @@
 
             <div class="recipe-body">
                 <div class="recipe-text-header">Nutritional Values<br><br>
-                    <textarea type="text" id="textbox"  rows="5" cols="55"placeholder="Enter Nutrional Value (optional)..."></textarea>
+                    <textarea type="text" id="nutrition-textbox"  rows="5" cols="55"placeholder="Enter Nutrional Value (optional)..."></textarea>
                 </div>
 
                 <div class="recipe-text-header">Ingredients<br><br>
-                    <textarea type="text" id="textbox" rows="5" cols="55" placeholder="Enter Ingredient List..."></textarea>
+                    <textarea type="text" id="ingredient-textbox" rows="5" cols="55" placeholder="Enter Ingredient List..."></textarea>
                 </div>
                 
                 <div class="recipe-text-header">Notes<br><br>
-                    <textarea type="text" id="textbox" rows="5" cols="55" placeholder="Any Notes for the recipe?..."></textarea>
+                    <textarea type="text" id="note-textbox" rows="5" cols="55" placeholder="Any Notes for the recipe?..."></textarea>
                 </div>
             </div>
                 
             </div>
 
+<!--This the second column -->
             <div class="column">
             <div class="recipe-overview">
                 <div class="image-section">
                 <div class="square">
                     <div class="add-image"> Add Image
-                        <br><br><input type="file" id="user-file" accept="image/*">
+                        <br><br>
+                        <input type="file" id="user-file" accept="image/*">
                     </div>
                 </div>
                 </div>
@@ -105,7 +110,7 @@
 
             <div class="recipe-body">
                 <div class="save-button">
-                    <button type="submit" class="save-recipe-button">
+                    <button type="submit" id= "save-recipe-button" class="save-recipe-button">
                         <span class="top2">Save Recipe</span>
                     </button>
                 </div>
@@ -113,7 +118,7 @@
         </div>
     </form>
     </section>
-
+    <script src="script.js"></script>
     </body>
 
 

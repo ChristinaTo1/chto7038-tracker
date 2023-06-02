@@ -71,13 +71,6 @@
     padding-left: 50px;
 }
 
-.sub-header {
-    font-family: Century Gothic;
-    font-size: 15px;
-    font-weight: 100;
-    padding-left: 50px;
-}
-
 .sub-header h3 {
     display: inline;
     padding-right: 20px;
@@ -117,6 +110,7 @@
     outline-offset: 4px;
 }
 
+/*This is the face of the buttons on the page*/
 .top1 {
     text-align: left;
     height: 40px;
@@ -173,6 +167,7 @@
     padding-top: 20px;
 }
 
+/*This is the Recipe title textbox*/
 #RN-textbox {
     font-size: 20px;
     padding-top: 10px;
@@ -180,6 +175,7 @@
     font-family: Century Gothic;
 } 
 
+/*This is the Recipe description textbox*/
 #RD-textbox {
     font-size: 17px;
     padding-top: 10px;
@@ -193,7 +189,7 @@
     font-family: Century Gothic;
 }
 
-#course-names {
+#course-name {
     width: 275px;
     font-family: Century Gothic;
     font-size: 15px;
@@ -208,7 +204,7 @@
     font-family: Century Gothic;
 }
 
-#tag-names {
+#tag-name {
     width: 275px;
     font-family: Century Gothic;
     font-size: 15px;
@@ -272,7 +268,7 @@
 
 .add-image {
     position: relative;
-    top: 230px;
+    top: 200px;
     text-align: center;
     font-family: Century Gothic;
 }
@@ -288,7 +284,21 @@
     font-family: Century Gothic;
 }
 
-#textbox {
+#nutrition-textbox {
+    font-size: 17px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: Century Gothic;
+}
+
+#ingredient-textbox{
+    font-size: 17px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: Century Gothic;
+}
+
+#note-textbox {
     font-size: 17px;
     padding-top: 10px;
     padding-left: 10px;
